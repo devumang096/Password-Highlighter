@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Password highlighter</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <form onsubmit="return false">
+       <div class="form-item"><label>Username</label>
+            <div class="input-wrapper"><input type="text" id="Username"/></div>      
+       </div>
+       <div class="form-item"><label>Password</label>
+        <div class="input-wrapper"><input type="passwrod" id="password"/>
+            <button type="button" id="eyeball">
+                <div class="eye"></div>
+            </button>
+            <div id="beam"></div>
+          </div>
+        </div><button id="submit">Sign in</button>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
