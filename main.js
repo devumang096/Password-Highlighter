@@ -10,7 +10,7 @@ root.addEventListener('mousemove',(e) => {
     let rad=Math.atan2(mouseX-e.pageX,mouseY-e.pageY);
     let degrees=(rad*(20/Math.PI)*-1)-350;
 
-    root.style.setProperty('--beamDegrees', '${degrees}deg');
+    root.style.setProperty('--beamDegrees', `${degrees}deg`);
 });
 
 eye.addEventListener('click',e =>{
